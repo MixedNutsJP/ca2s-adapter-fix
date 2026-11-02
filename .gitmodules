@@ -1,0 +1,3 @@
+[submodule "mod-loader"]
+	path = mod-loader
+	url = https://github.com/MixedNutsJP/ca2s-mod-loader.git

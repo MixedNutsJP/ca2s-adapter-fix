@@ -10,6 +10,7 @@ research/pylib/
 
 # Build output and IDE state
 build/
+dist/
 out/
 .vs/
 CMakeUserPresets.json
