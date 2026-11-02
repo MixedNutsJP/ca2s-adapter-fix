@@ -1,0 +1,25 @@
+# Crash dumps contain process memory. Never publish them.
+research/dumps/
+*.dmp
+
+# Disassembly of the game's own code. Regenerate with research/disasm.py.
+research/disasm.txt
+
+# Third-party Python packages installed with pip --target
+research/pylib/
+
+# Build output and IDE state
+build/
+out/
+.vs/
+CMakeUserPresets.json
+
+# Runtime log written next to the DLL
+*.log
+
+__pycache__/
+*.pyc
+
+# Kept locally only: working notes and local test scripts
+docs/
+tests/
